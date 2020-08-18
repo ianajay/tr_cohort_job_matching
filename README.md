@@ -18,12 +18,13 @@ Let individual characteristics 1 be named 'Ind_1'
 SET INDIVIDUAL CHARACTERISTICS2 as 'looking for frontend' 'cloud experience' 'office based'
 Let individual characteristics 2 be named 'Ind_2
 
-SET customer selection to 5 //customer can only choose 5 characteristics
+SET customer selection to 5 //customer can only choose 5 individual characteristics
 
 CONDITION
 
 IF customer selects <5 characteristics
 PRINT 'Five options need to be chosen'
+ENDIF
 
 
 
